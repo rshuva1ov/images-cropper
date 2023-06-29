@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rshuva1ov.github.io/images-cropper",
   "name": "react-image-crop-demo-with-react-hooks",
   "version": "1.0.0",
   "description": "",
@@ -13,9 +14,12 @@
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^5.0.0",
     "typescript": "^4.8.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

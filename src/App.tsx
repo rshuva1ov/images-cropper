@@ -6,8 +6,8 @@ import ReactCrop, {
   Crop,
   PixelCrop,
 } from 'react-image-crop'
-import { canvasPreview } from './canvasPreview'
-import { useDebounceEffect } from './useDebounceEffect'
+import { canvasPreview } from './components/canvasPreview'
+import { useDebounceEffect } from './components/useDebounceEffect'
 import 'react-image-crop/dist/ReactCrop.css'
 
 function centerAspectCrop(
